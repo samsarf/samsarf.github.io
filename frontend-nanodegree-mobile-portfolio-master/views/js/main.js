@@ -524,7 +524,7 @@ window.addEventListener('scroll', updatePositions);
 
 // Generates the sliding pizzas when the page loads.
 document.addEventListener('DOMContentLoaded', function() {
-  //Change cols 8 to 6. S from 256 to 10, 200
+  //Change 200 to 20
   var cols = 8;
   var s = 256;
   for (var i = 0; i < 20; i++) {
